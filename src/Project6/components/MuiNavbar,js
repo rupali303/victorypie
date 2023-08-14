@@ -1,0 +1,66 @@
+// import React, { useState } from 'react'
+// import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+// import { Alert, AppBar, Button, Tab, Tabs, Toolbar, Typography, useMediaQuery, useTheme } from '@mui/material';
+// import MuiDrawer from './MuiDrawer';
+// // import { PAGES } from '../database/data';
+// import { useNavigate } from 'react-router-dom';
+
+// function MuiNavbar() {
+
+//     const navigate = useNavigate();
+//     const theme = useTheme();
+//     const [index, setIndex] = useState(null);
+
+//     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+//     // console.log(isMobile);
+
+//     const handleLogin = () => {
+//         navigate("/login")
+//     }
+
+//     const handleSignup = () => {
+//         navigate("/signup")
+//     }
+
+//     const handleAuth = () => {
+//         alert(`Log in required. First Log in to the page`)
+//         alert(`If you don't have an account, please sign up to create account`)
+//         navigate("/signup")
+//     }
+
+//     return (
+//         <div>
+//             <AppBar sx={{ backgroundColor: "lightblue" }} >
+//                 <Toolbar>
+//                     <ShoppingCartIcon sx={{ color: "black" }} />
+//                     <Typography sx={{ color: "black" }} variant='h6'>ShopMart</Typography>
+                    
+
+//             //         {isMobile ? <MuiDrawer /> :
+//             //             <>
+//             //                 <Tabs value={index} onClick={handleAuth} onChange={(e, i) => setIndex(i)}>
+//             //                     {PAGES.map((page, i) => {
+//             //                         return <Tab key={i} label={page} />
+//             //                     })}
+//             //                 </Tabs>
+
+
+//             //                 <Tabs>
+//             //     <Tab label="Products"/>
+//             //     <Tab label="Services"/>
+//             //     <Tab label="About-Us"/>
+//             //     <Tab label="Contact-Us"/>
+//             // </Tabs> 
+
+
+//             //             </>}
+//                         <Button style={{ margin: "0 15px", marginLeft: "auto" }} onClick={handleLogin} variant='contained'>Login</Button>
+//                     <Button style={{ margin: "0 15px'" }} variant='contained' onClick={handleSignup}>Sign Up</Button>
+//                 </Toolbar>
+//             </AppBar>
+//         </div>
+//     )
+// }
+// }
+
+// export default MuiNavbar

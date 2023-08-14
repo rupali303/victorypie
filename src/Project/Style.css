@@ -1,0 +1,19 @@
+.productContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.productWrapper{
+    border: 1px solid gray;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    box-shadow: 4px 4px 10px gray;
+    border-radius: 30px;
+   margin-top: 5px;
+}
+.productWrapper :hover{
+    box-shadow: 6px 6px 20px greenyellow;
+}

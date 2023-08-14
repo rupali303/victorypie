@@ -1,0 +1,1 @@
+export const PAGES = ["Products","Services","AboutUs","ContactUs"]
